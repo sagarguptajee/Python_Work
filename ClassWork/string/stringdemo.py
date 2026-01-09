@@ -1,4 +1,4 @@
-st = "Sun rises In East ß ς"
+st = " Sun rises In East ß ς"
 
 # print(len(st))
 # print(st.lower())
@@ -6,14 +6,14 @@ st = "Sun rises In East ß ς"
 # print(st.upper())
 # print(st.capitalize())
 # print(st.title())
-# print(st.strip())
+# print(st.strip())   #start and end space clear 
 # print(st.replace('s','K',2))
 # print(st.find("East"))
 # print(st.startswith("Sun"))
 # print(st.endswith("ß"))
 
 # print(st.split(" "))
-# print(st.join("K"))
+# print(st.join("KGF"))
 # print("abc".isalpha())
 # print("123wq".isdigit())
 # print("and123@".isalnum())
@@ -23,9 +23,9 @@ st = "Sun rises In East ß ς"
 
 k = "hellopythonhellotops"
 
-# print(k[0:7])
+print(k[0:7])
 # print(k[5:9])
 # print(k[6:])
-# print(k[1:17:3])
+print(k[1:17:3])
 # print(k[-1])
 # print(k[::-1])
