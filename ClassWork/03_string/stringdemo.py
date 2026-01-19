@@ -27,5 +27,5 @@ k = "hellopythonhellotops"
 # print(k[5:9])
 # print(k[6:])
 # print(k[1:17:3])
-print(k[-1])
+# print(k[-1])
 # print(k[::-1])
