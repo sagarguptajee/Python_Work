@@ -25,8 +25,8 @@
 #         break
 #     print(len(data))
 # f.close()
-
-with open("test.txt") as f:
+ 
+with open("test.txt") as f:  #no need to close the file when use of (with)
     f.seek(10)
     print(f.tell())
     data=f.read()
