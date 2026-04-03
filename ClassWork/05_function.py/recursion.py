@@ -7,19 +7,19 @@
 
 
 
-# def square(num):
-#     print(num*num)
-#     num+=1
-#     if num<=10:
-#         square(num)
-# square(1)
+def square(num):
+    print(num*num)
+    num+=1
+    if num<=10:
+        square(num)
+square(5)
 
 
 
-def factorail(num):
-    if num==0 or num==1:
-        return 1
-    else:
-        return num*factorail(num-1)
+# def factorail(num):
+#     if num==0 or num==1:
+#         return 1
+#     else:
+#         return num*factorail(num-1)
 
-print(factorail(5))
+# print(factorail(5))

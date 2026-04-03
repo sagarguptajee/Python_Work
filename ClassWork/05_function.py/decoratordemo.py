@@ -34,28 +34,28 @@
 
 # calc(10,20)
 
-def numcheck(fun):
-    def exe(b):
-        if b.isdigit():
-            print("numeric number")
+# def numcheck(fun):
+#     def exe(b):
+#         if b.isdigit():
+#             print("numeric number")
 
-        else:
-            print("invalid input")
-        fun(b)
-    return exe
+#         else:
+#             print("invalid input")
+#         fun(b)
+#     return exe
 
-def alphaheck(fun):
-    def exe(c):
-        if c.isalnum():
-            print("alpha numaric")
+# def alphaheck(fun):
+#     def exe(c):
+#         if c.isalnum():
+#             print("alpha numaric")
 
-        else:
-            print("invalid input")
-        fun(c)
-    return exe
+#         else:
+#             print("invalid input")
+#         fun(c)
+#     return exe
 
 
-@numcheck
-def check(a):
-    pass
-check("10")
+# @numcheck
+# def check(a):
+#     pass
+# check("10")

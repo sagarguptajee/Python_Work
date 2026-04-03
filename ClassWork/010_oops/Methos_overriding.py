@@ -5,7 +5,7 @@ class Demo:
 class Sample(Demo):
     def test(self):
         print("sample class test calling")
-        super().test()
+        # super().test()
 
 s  =Sample()
 s.test()

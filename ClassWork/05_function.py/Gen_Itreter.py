@@ -10,6 +10,6 @@ def square(a):
         yield i*i
 a=iter(square(10))
 print(next(a))
-print(next(a))
-print(next(a))
-print(next(a))
+# print(next(a))
+# print(next(a))
+# print(next(a))

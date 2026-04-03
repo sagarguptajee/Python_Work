@@ -14,6 +14,6 @@ class Calc :
 
 
 
-c  =Calc()
+c=Calc()
 c.add(10,20)
 c.add(10,20,30)

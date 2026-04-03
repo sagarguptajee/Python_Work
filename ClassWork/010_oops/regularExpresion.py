@@ -38,24 +38,29 @@ import re
 # k=re.findall("\s","Hello Python Hello Tops @ Hello world 121 121")
 # print(k)
 
-text="The certificate was issued"
-k=re.search(r'\Bued',text)
-print(k)
+# text="The certificate was issued"
+# k=re.search(r'\Bued',text)
+# print(k)
 
 
 # k = re.search("\d{,10}","7485968574")
 # print(k)
 
 
-k = re.match("^[0-9]{10}$","7484404444")
-print(k)
+# k = re.match("^[0-9]{10}$","7484404444")
+# print(k)
 
 # email = input("enter email : ")
 # k = re.match("^[a-zA-Z0-9_-]+@[a-zA-Z]+\\.[a-zA-Z]{2,4}$",email)
 # if k is None : 
 #     print("invalid email")
 # else : 
-#     print(email)
+#     print(email)/
+
+
+
+
+
 
 
 

@@ -6,13 +6,13 @@
 
 # print(10 in s)
 
-# a = {10,20,30,10}
-# b = [100,200,300,100]
+a = {10,20,30,10}
+b = [100,200,300,100]
 # a.update(b)
-# print(a)
+print(a)
 
-# b.extend(a)
-# print(b)
+b.extend(a)
+print(b)
 
 
 s = {"java","python","node","php","android"}
@@ -38,8 +38,8 @@ s = {"java","python","node","php","android"}
 #     print(i)
 
 
-# a = {10,20,30,40,50,True}
-# b = {40,50,60,70,80,1}
+a = {10,20,30,40,50,True}
+b = {40,50,60,70,80,1}
 
 # a.update(b)
 # c = a.union(b)
@@ -49,12 +49,12 @@ s = {"java","python","node","php","android"}
 # a.intersection_update(b)
 # c  =a.intersection(b)
 # c = a&b
-# print(c)
+# print(a)
 
 # a.difference_update(b)
 # c = a.difference(b)
 # c = b-a
-# print(c)
+# print(a)
 
 # a.symmetric_difference_update(b)
 # c = a.symmetric_difference(b)
@@ -64,8 +64,8 @@ s = {"java","python","node","php","android"}
 # s = frozenset({10,20,30,40,50})
 # print(s)
 
-a = {10,20,30,40}
-b = {100,200}
-print(b.issubset(a))
-print(a.issuperset(b))
-print(a.isdisjoint(b))
+# a = {10,20,30,40}
+# b = {100,200}
+# print(b.issubset(a))
+# print(a.issuperset(b))
+# print(a.isdisjoint(b))

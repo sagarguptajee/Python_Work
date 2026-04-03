@@ -23,11 +23,12 @@ l = [10,20,30,40,50,60]
 
 # l[2] = 500
 # l[2:4] = [200,300,400]
-# l.insert(500)
+# l.insert(0,500)
 # l.append(800)
-k = ["a","b","c"]
-l.extend([100,200,300])
-l.extend(k)
+# k = ["a","b","c"]
+# l.extend([100,200,300])
+# l.extend(k)
+# print(l)
 
 
 # l.remove(10)
@@ -35,7 +36,7 @@ l.extend(k)
 # l.pop(1)
 # l.clear()
 # del l
-print(l)
+# print(l)
 
 # for i in l:
 #     print(i)
@@ -68,11 +69,12 @@ print(l)
 
 #sorting
 
-# l = [10,50,60,90,15,67]
-# l.sort()
+l = [10,50,60,90,15,67]
+l.sort()
 # l.sort(reverse=True)
 # l.reverse()
 # k = sorted(l)
+print(l)
 
 # k = l
 # k = l.copy()

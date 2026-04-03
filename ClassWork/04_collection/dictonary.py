@@ -36,29 +36,29 @@ person = {
 # k = dict(person)
 # print(k)
 
-# students = {
-#     "s1" : {
-#         "name":"sagar",
-#         "email":"sagar@gmail.com"
-#     },
-#     "s2":{
-#         "name":"krushang",
-#         "email":"krushang@gmail.com"
-#     },
-#     "s3":{
-#         "name":"hasan",
-#         "email":"hasan@gmail.com"
-#     },
-#     "s4":{
-#         "name":"keyu",
-#         "email":"keyu@gmail.com"
-#     }
-# }
+students = {
+    "s1" : {
+        "name":"sagar",
+        "email":"sagar@gmail.com"
+    },
+    "s2":{
+        "name":"krushang",
+        "email":"krushang@gmail.com"
+    },
+    "s3":{
+        "name":"hasan",
+        "email":"hasan@gmail.com"
+    },
+    "s4":{
+        "name":"keyu",
+        "email":"keyu@gmail.com"
+    }
+}
 
-# for i,j in students.items():
-#     print(i)
-#     for a,b in j.items():
-#         print(a,b)
+for i,j in students.items():
+    print(i)
+    # for a,b in j.items():
+    #     print(a,b)
 
 # print(person)
 # print(person.items())
