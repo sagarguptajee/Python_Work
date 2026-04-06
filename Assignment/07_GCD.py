@@ -1,11 +1,10 @@
-no_1=int(input("enter your first number:"))
-no_2=int(input("enter your second number:"))
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
 
-for i in range(1,no_1+1):
-    if no_1%i==0:
-        print(list(i))
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
-for j in range(1,no_1+1):
-    if no_2%j==0:
-        print(list(j))
+print("GCD is:", gcd(num1, num2))
 

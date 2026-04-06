@@ -24,7 +24,7 @@ import numpy as np
 # print(df)
 
 # dt=pd.read_csv("C:/Users/SAGAR GUPTA/Downloads/Superstore .csv",encoding='latin-1')    #UTF8 Error
-# dt=pd.read_csv("C:/Users/SAGAR GUPTA/Downloads/diamonds.csv")
+#   
 # print(dt)
 
 # dt.to_csv("C:/Users/SAGAR GUPTA/Downloads/Newdiamond.csv")

@@ -12,17 +12,19 @@ data={
 df=pd.DataFrame(data)
 print(df)
 
-df1=df.groupby('Category')['Quantity'].mean()
+# df1=df.groupby('Category')['Quantity'].mean()
+# print(df1)
+
+# df1=df.groupby('Region')['Sales'].agg(['sum','mean','count','min','max'])
+
+# print(df1)
+
+# df1=df.groupby('Region')
+
+df1=df.groupby('Category').agg({'Sales':'mean','Quantity':'sum'})
 print(df1)
 
-df1=df.groupby('Region')['Sales'].agg(['sum','mean','count','min','max'])
-
-print(df1)
-
-
-
-
-
+#df1=df.groupby(['Category','Region'])['Sales'].mean() #min() ,max()
 
 
 
