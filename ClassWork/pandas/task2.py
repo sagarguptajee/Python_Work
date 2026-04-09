@@ -32,8 +32,34 @@ df=pd.DataFrame(read_data)
 ################################## 4th table############################################
 
 
-sales_data=df[['Sales_person','Team','Picture','SPID']]
-rem_dup=sales_data.drop_duplicates(subset=['Sales_person','Team','Picture','SPID'])
-rem_dup.sort_values(by='SPID',inplace=True)
-rem_dup.to_csv("C:/Users/SAGAR GUPTA/Downloads/Salesperson.csv",index=False)
-print(rem_dup)
+# sales_data=df[['Sales_person','Team','Picture','SPID']]
+# rem_dup=sales_data.drop_duplicates(subset=['Sales_person','Team','Picture','SPID'])
+# rem_dup.sort_values(by='SPID',inplace=True)
+# rem_dup.to_csv("C:/Users/SAGAR GUPTA/Downloads/Salesperson.csv",index=False)
+# print(rem_dup)
+
+
+# location wise total amount
+#product wise sales and costing  ,prodict sales req, costing req
+#top five selling product 
+#order shipment ,count of all diliver , shiped all count diffrencicate all
+
+#product wise sales and costing  ,prodict sales req, costing req
+df['Costing']=df['Cost_per_box']*df['Boxes']
+df4=df.groupby('Product').agg[{'Amount':'sum','Costing':'sum'}]
+print(df4)
+
+# location wise total amount
+# l_sales=df.groupby(['Geo'])['Amount'].sum().reset_index(name='Total_Sales')
+# print(l_sales)
+# l_sales.to_csv("C:/Users/SAGAR GUPTA/Downloads/TotalSales.csv",index=False)
+
+#top five selling product 
+
+# top_sales=df.groupby('Product').value_counts()
+# top_five=top_sales.sort_values(by='Amount',ascending=False).head(5)
+# print(top_sales)
+
+#order shipment ,count of all diliver , shiped all count diffrencicate all
+# count1=df['Order_Status'].value_counts().reset_index()
+# print(count1)
