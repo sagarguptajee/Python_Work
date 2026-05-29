@@ -1,0 +1,63 @@
+15. What do you know about supervised and unsupervised machine learning? 
+
+**Supervised and Unsupervised Machine Learning**
+
+### 1. Supervised Machine Learning
+
+Supervised learning is a type of machine learning in which the model is trained using **labeled data**. This means that both the input data and the correct output are provided during training. The model learns the relationship between inputs and outputs and uses it to make predictions on new data.
+
+**Examples:**
+
+* Email spam detection
+* House price prediction
+* Image classification
+
+**Common Algorithms:**
+
+* Linear Regression
+* Logistic Regression
+* Decision Trees
+* Random Forest
+* Support Vector Machine (SVM)
+
+**Advantages:**
+
+* High accuracy when sufficient labeled data is available.
+* Easy to evaluate model performance.
+
+**Disadvantages:**
+
+* Requires large amounts of labeled data.
+* Labeling data can be time-consuming and expensive.
+
+---
+
+### 2. Unsupervised Machine Learning
+
+Unsupervised learning is a type of machine learning in which the model is trained using **unlabeled data**. The model tries to find hidden patterns, structures, or relationships in the data without any predefined output labels.
+
+**Examples:**
+
+* Customer segmentation
+* Market basket analysis
+* Anomaly detection
+
+**Common Algorithms:**
+
+* K-Means Clustering
+* Hierarchical Clustering
+* DBSCAN
+* Principal Component Analysis (PCA)
+
+**Advantages:**
+
+* Does not require labeled data.
+* Useful for discovering hidden patterns and insights.
+
+**Disadvantages:**
+
+* Results may be harder to interpret.
+* Accuracy is often more difficult to evaluate.
+
+**Conclusion:**
+Supervised learning learns from labeled data to make predictions, while unsupervised learning discovers hidden patterns and relationships from unlabeled data. Both are important techniques in machine learning and are used for different types of problems.

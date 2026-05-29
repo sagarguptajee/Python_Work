@@ -1,0 +1,21 @@
+Q14-List a few limitations of TensorFlow
+
+**Limitations of TensorFlow**
+
+1. **Steep Learning Curve** – TensorFlow can be difficult for beginners due to its complex architecture and numerous APIs.
+
+2. **Debugging Challenges** – Finding and fixing errors in large models can be time-consuming and complicated.
+
+3. **High Resource Consumption** – Training deep learning models often requires significant CPU, GPU, memory, and storage resources.
+
+4. **Complex Setup and Configuration** – Installing and configuring TensorFlow with GPU support can be challenging for some users.
+
+5. **Long Training Time** – Large neural networks may require extensive training time, especially on limited hardware.
+
+6. **Limited Support for Some Operations** – Certain custom operations may require additional coding or integration with lower-level APIs.
+
+7. **Large Library Size** – TensorFlow's extensive framework can increase application size and complexity.
+
+8. **Version Compatibility Issues** – Code written for one TensorFlow version may require modifications to work with newer versions.
+
+**Conclusion:** While TensorFlow is a powerful and widely used machine learning framework, its complexity, resource requirements, and debugging challenges can make it difficult for beginners and small-scale projects.

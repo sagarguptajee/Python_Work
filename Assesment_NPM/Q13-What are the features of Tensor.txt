@@ -1,0 +1,19 @@
+Q13-What are the features of TensorFlow? 
+
+**Features of TensorFlow**
+
+TensorFlow is an open-source machine learning and deep learning framework developed by Google. Its main features are:
+
+1. **Flexible Architecture** – Supports the development of various machine learning and deep learning models.
+2. **Deep Learning Support** – Enables the creation and training of neural networks such as CNNs, RNNs, and Transformers.
+3. **Keras Integration** – Provides a user-friendly high-level API for building models quickly.
+4. **Automatic Differentiation** – Automatically calculates gradients for efficient model training.
+5. **GPU and TPU Support** – Accelerates training and inference using GPUs and TPUs.
+6. **Distributed Training** – Allows model training across multiple devices and machines.
+7. **TensorBoard Visualization** – Helps visualize model architecture, training progress, and performance metrics.
+8. **Model Deployment Tools** – Supports deployment through TensorFlow Serving, TensorFlow Lite, and TensorFlow.js.
+9. **Cross-Platform Compatibility** – Runs on Windows, Linux, macOS, Android, iOS, and web browsers.
+10. **Large Ecosystem and Community Support** – Offers extensive documentation, tutorials, and pre-trained models.
+11. **Model Saving and Reuse** – Allows models to be saved, loaded, and shared for future use.
+
+**Conclusion:** TensorFlow is a powerful, scalable, and versatile framework widely used for machine learning, deep learning, artificial intelligence, and data science applications.
